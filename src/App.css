@@ -1,0 +1,11 @@
+.beers {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+
+.beer {
+  list-style: none;
+}
