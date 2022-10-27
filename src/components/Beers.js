@@ -32,7 +32,7 @@ export default class Beers extends Component {
     console.log("render");
     return (
       <div>
-        <h2>Beers</h2>
+        <h1 className='header'>Beer</h1>
         <ul className = "beers">
             {this.state.beers.map((beers) => {
               return( 
