@@ -22,7 +22,6 @@ getImageName = () => this.state.open ? 'unLiked' : 'liked'
     const imageName = this.getImageName();
     return (
       <div>
-        <img src={imagePath[imageName]} alt={imagePath} onClick={this.toggleImage} />
       </div>
     )
   }
